@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{ 
+            background-image: url('../download/pet.jpg') ;
+            background-size: 1100px;
+            
+        }
+        input{
+            border-radius: 10px;
+            background-color: paleturquoise;
+        }
+         option{
+            background-color: cyan;
+         }
+        
+    </style>
+</head>
+<body>
+   <header style="text-align: center; font-size: xx-large;">Pet Adaption Event Application Form</header><br>
+    <form style="font-size: larger;">
+        <label> Application Name:</label><br>
+        <input  type="text"  placeholder="first" required  />
+        <input type="text" placeholder="Last" style="border-radius: 5px;"/><br><br>
+        <label>Email Address:</label > <br>
+        <input type="email" required><br><br>
+        <label>Home Address:</label><br>
+        <input type="text" placeholder="Street Address"/><br>
+        <input type="text" placeholder="Street Address line 2"/> <br>
+        <input type="text" placeholder="city"/>
+        <input type="text" placeholder="Region"/><br>
+        <input type="text" placeholder="Pincode"/>
+        <input type="text" placeholder="State"/> <br><br>
+        <label >Type of Pet Intrested in:</label><br>
+        
+        <input id="name" type="checkbox" />
+        <label for="name">Dog</label>
+        <input id="name" type="checkbox" />
+        <label for="name">Cat</label>
+        <input id="name" type="checkbox" />
+        <label for="name">Rabbit</label>
+        <input id="name" type="checkbox" />
+        <label>Other</label>
+        <input type="checkbox/"> 
+        <br> <br>
+
+        <label >Dog Bread</label> 
+        <select>
+            <option>select</option>
+            <option>Bulldog</option>
+            <option>German shepherd</option>
+            <option>Husky</option>
+            <option>Other</option></select> <br><br>
+    
+        <label >Cat Bread</label> 
+        <select>
+            <option>select</option>
+            <option>Shorthair</option>
+            <option>Ocicat</option>
+            <option>Toyger</option>
+            <option>Other</option></select> <br><br>
+
+        <label >Rabbit Bread</label> 
+        <select>
+            <option>select</option>
+            <option>Flemish Giant rabbit</option>
+            <option>English lop</option>
+            <option>Holland lop</option>
+            <option>Other</option></select> <br><br>
+    
+
+        <input id="name" type="radio" name="fav_language"/>
+        <label for="name">Male</label>
+        <input id="name" type="radio" name="fav_language"/>
+        <label for="name">Female</label> <br><br>
+        
+        <label>Current Pet Ownership Details:</label><br>
+        <input type="text"><br><br>
+        <input style="background-color: rgb(186, 19, 19);"  type="submit"/>
+    
+
+    
+
+        
+    </form>
+</html>
